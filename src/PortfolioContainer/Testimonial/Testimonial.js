@@ -7,7 +7,7 @@ import Footer from "../Home/Footer/Footer";
 import battleship from '../../assets/battle.jpeg';
 import hacking from '../../assets/hacking.png';
 import proflow from '../../assets/proflow.jpeg';
-
+import { Link } from 'react-router-dom';
 
 export default function Testimonial() {
     const experienceList1 = ["Wrote a script for automatically pushing out Windows updates and software updates for all departments, including internationally based computers and electronics with batch files, group policies, SQL, and LanSweeper",
@@ -29,9 +29,11 @@ export default function Testimonial() {
                 <ProjectCard name="ProFlow" skills="React | TypeScript | CSS | HTML" role="Task Managing application" to_link="https://github.com/CS35L-ProFlow/ProFlow" img_link={proflow}/>
             </div> 
             <div className="afterParty">
-                <button className="btn primary-btn" href="/projects"> {/* HUH?? */}
+                <Link to="/projects">
+                <button className="btn primary-btn"> {/* HUH?? */}
                     More
                 </button>
+                </Link>
             </div>
             <Header />
             <div className='workexp'>
