@@ -1,13 +1,7 @@
 import React from "react";
-
 import "./NavBar.css";
-
-import { Button } from "@mui/material";
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-
 import Home from "../Home/Home";
-
 import Everything from "../Everything/Everything";
 
 export default function NavBar() {
@@ -19,14 +13,14 @@ export default function NavBar() {
             <Link class="link" to="/">
               Home
             </Link>
-            <Link class="link" to="/battleship">
-              Battleship
+            <Link class="link" to="/projects">
+              Projects
             </Link>
-            <Link class="link" to="/sorting">
-              Sorting
+            <Link class="link" to="/workexp">
+              Work Experience
             </Link>
-            <Link class="link" to="/rps">
-              Rock Paper Scissors
+            <Link class="link" to="/abtme">
+              About Me
             </Link>
           </div>
         </div>
@@ -35,6 +29,7 @@ export default function NavBar() {
       <div id="content">
         <Routes>
           <Route path="/" element={<Everything />}></Route>
+          <Route path="/projects" element={<Home />}></Route> {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
         </Routes>
       </div>
 

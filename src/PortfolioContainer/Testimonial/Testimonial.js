@@ -29,7 +29,7 @@ export default function Testimonial() {
                 <ProjectCard name="ProFlow" skills="React | TypeScript | CSS | HTML" role="Task Managing application" to_link="https://github.com/CS35L-ProFlow/ProFlow" img_link={proflow}/>
             </div> 
             <div className="afterParty">
-                <button className="btn primary-btn">
+                <button className="btn primary-btn" href="/projects"> {/* HUH?? */}
                     More
                 </button>
             </div>
