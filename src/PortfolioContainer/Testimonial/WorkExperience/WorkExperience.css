@@ -1,0 +1,140 @@
+/* .work-body{
+    background: linear-gradient(to top, #33b622 0%, #87dca9 100%);
+    margin-top: 50px;
+    height:300px;
+    border-radius: 15px;
+} */
+
+.work-body-title {
+  font-size: 38px;
+  text-align: center;
+  font-family: "Poppins-ExtraBoldItalic" italic;
+  color: white;
+}
+
+.work-body-description {
+  font-size: 23px;
+  opacity: 0.8;
+  text-align: center;
+  font-family: "Poppins-Thin";
+  color: white;
+}
+
+h2 {
+  margin-top: 15px;
+}
+/* 
+.work-body:has(:hover, :focus){
+    --img-scale: 1.1;
+    --title-color: rgb(252, 91, 91);
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  /* YEAH IDK MAN ASK MAIA 
+    box-shadow: 10px 10px 10px rgb(233, 93, 93);
+} */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.work-body {
+  background-color: transparent;
+  width: 330px;
+  height: 330px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: auto;
+  border-radius: 15px;
+  transform: 1.2s ease;
+}
+
+@media screen and (max-width: 1000px) {
+  .work-body {
+    width: 70%;
+    margin: auto;
+    height: 190px;
+  }
+  .work-body-title {
+    font-size: 25px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+  }
+  .work-body-description {
+    font-size: 15px;
+  }
+}
+
+/* This container is needed to position the front and back side */
+.flip-card {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.work-body:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.work-body-front,
+.work-body-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* border-radius: 15px; */
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+/* Style the front side (fallback if image is missing) */
+.work-body-front {
+    background: linear-gradient(to top, #00172b 0%, #458da1 100%);
+  color: white;
+  padding: 30px;
+}
+
+/* Style the back side */
+.work-body-back {
+  background-color: rgb(6, 50, 94);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 15px;
+  padding-right: 20px;
+  overflow: scroll;
+}
+
+.work-body-back::-webkit-scrollbar {
+  width: calc(100% - 15px);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.work-body-back::-webkit-scrollbar-track {
+  direction: rtl;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: solid 3px transparent;
+}
+
+/* Set the width and height of the scrollbar thumb */
+.work-body-back::-webkit-scrollbar-thumb {
+  width: 10px; /* Set the width of the scrollbar thumb */
+  height: 10px; /* Set the height of the scrollbar thumb */
+  background-color: #c0c0c0; /* Set the background color of the scrollbar thumb */
+}
+
+/* Set the hover effect for the scrollbar thumb */
+.work-body-back::-webkit-scrollbar-thumb:hover {
+  background-color: #808080; /* Set the background color of the scrollbar thumb on hover */
+}
+
+li::marker {
+  content: counter(list-item) "› ";
+  color: rgb(252, 91, 91);
+}
+
+li {
+  font-size: 20px;
+}

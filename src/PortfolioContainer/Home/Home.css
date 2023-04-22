@@ -1,0 +1,9 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 670px;
+    /* background-image: url("../../assets/Home/bg.webp"); */
+    background: linear-gradient(to bottom, #0e1b42 0%, #000000 100%); /* 2a0e42 */
+    overflow: hidden;
+}
