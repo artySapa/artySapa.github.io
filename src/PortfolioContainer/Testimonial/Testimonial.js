@@ -83,11 +83,6 @@ export default function Testimonial() {
             experienceList={experienceList3}
           />
         </div>
-        <div className="afterParty">
-            <Link to="/workexp">
-                <button className="btn primary-btn">More</button>
-            </Link>
-        </div>
         <Footer />
       </div>
     </div>

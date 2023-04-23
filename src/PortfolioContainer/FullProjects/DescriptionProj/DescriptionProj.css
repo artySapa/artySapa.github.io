@@ -14,9 +14,15 @@ video {
     border-radius: 15px;
     overflow: clip;
     margin-left: 100px;
+    margin-right: 100px;
 }
 
-.demo-description{
+.demo-description1{
+    font-family: "Poppins";
+    transform: translateX(-15%) ;
+}
+
+.demo-description2{
     font-family: "Poppins";
 }
 
@@ -43,4 +49,8 @@ video {
     margin: 30px;
     margin-left: 10%;
     overflow: contain;
+}
+
+.project-button{
+    transform: translateX(-50%);
 }

@@ -12,6 +12,7 @@ export default function Projects() {
   return (
     <div className="projectpage-body">
       <DescriptionProj
+        ind = "1"
         title="ProFlow"
         video={ProFlowDemo}
         description={[
@@ -22,6 +23,7 @@ export default function Projects() {
       />
       <div className="description-card">
         <DescriptionProj
+            ind = "2"
             video={BattleshipDemo}
             title="Battleship game"
             description={[
@@ -34,6 +36,7 @@ export default function Projects() {
         />
       </div>
       <DescriptionProj
+        ind = "1"
         video={CompilerDemo}
         title="Compiler Performance"
         description={[
