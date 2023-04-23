@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Everything from "../Everything/Everything";
 import ProjectPage from "../FullProjects/Projects";
+import { click } from "@testing-library/user-event/dist/click";
 
 export default function NavBar() {
   return (
@@ -16,7 +17,20 @@ export default function NavBar() {
             <Link class="link" to="/projects">
               Projects
             </Link>
-            <Link class="link" to="/workexp">
+            <Link
+              class="link"
+              to="/"
+              onClick={() => {
+                const targetElement = document.getElementById("workexp");
+                if (targetElement) {
+                  const topOffset = targetElement.offsetTop - 200; // subtract 300 pixels
+                  window.scrollTo({
+                    top: topOffset,
+                    behavior: "smooth",
+                  });
+                }
+              }}
+            >
               Work Experience
             </Link>
             <Link class="link" to="/abtme">
@@ -29,7 +43,7 @@ export default function NavBar() {
       <div id="content">
         <Routes>
           <Route path="/" element={<Everything />}></Route>
-          <Route path="/projects" element={<ProjectPage />}></Route>{" "}
+          <Route path="/projects" element={<ProjectPage />} ></Route>{" "}
           {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
         </Routes>
       </div>

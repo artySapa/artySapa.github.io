@@ -1,0 +1,6 @@
+.description-card{
+    background: linear-gradient(to bottom, #0e1b42 0%, #000000 100%); /* 2a0e42 */
+    padding-top:5px;
+    margin:auto;
+    color: white;
+}

@@ -32,3 +32,10 @@
     background-color: #0e1b42;
     height:60px;
 }
+
+
+.linkButton{
+    background: none;
+    text-decoration: none;
+    color: rgb(252, 91, 91);
+}

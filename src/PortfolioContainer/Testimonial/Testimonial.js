@@ -58,7 +58,7 @@ export default function Testimonial() {
         </Link>
       </div>
       <Header />
-      <div className="workexp">
+      <div id="workexp">
         <p className="title-workexp">Work Experience</p>
         <div className="experience2">
           <WorkExperience
@@ -84,7 +84,9 @@ export default function Testimonial() {
           />
         </div>
         <div className="afterParty">
-          <button className="btn primary-btn">More</button>
+            <Link to="/workexp">
+                <button className="btn primary-btn">More</button>
+            </Link>
         </div>
         <Footer />
       </div>

@@ -27,6 +27,8 @@ video {
 
 .project-body{
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .project-header2{
@@ -41,9 +43,4 @@ video {
     margin: 30px;
     margin-left: 10%;
     overflow: contain;
-}
-
-hr{
-    margin-top: 70px;
-    background-color:aqua;
 }
