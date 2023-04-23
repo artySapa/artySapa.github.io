@@ -9,7 +9,7 @@ export default function DescriptionProj(props) {
     const {description} = props;
     return (
         <div className="project-body">
-            <h1 className='project-header'>ProFlow</h1>
+            <h1 className='project-header'>{props.title}</h1>
             <div className='video-demo-container'>
                 <video className="video-demo" controls autoPlay muted loop src={props.video} />
                 <div className="demo-description">
