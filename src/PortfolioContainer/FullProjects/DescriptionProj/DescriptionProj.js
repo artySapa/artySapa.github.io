@@ -22,6 +22,7 @@ export default function DescriptionProj(props) {
                 <Button variant="contained" href={props.to_link} className="project-button" sx={{marginLeft: '50%', marginTop: '2%', backgroundColor:"rgb(252, 91, 91)", "&:hover":{
                     backgroundColor: "rgb(200, 91, 91)",
                 }}} startIcon={<GitHubIcon></GitHubIcon>} target="_blank">GitHub</Button>
+            <hr />
         </div>
     );
 }

@@ -30,7 +30,7 @@ video {
 }
 
 .project-header2{
-    font-family: "Poppins Light";
+    font-family: "Poppins SemiBold";
     font-size: 25px;
     text-align: center;
 }
@@ -41,4 +41,10 @@ video {
     margin: 30px;
     margin-left: 10%;
     overflow: contain;
+}
+
+hr{
+    margin-top: 70px;
+    background-color:aqua;
+    height:1px;
 }

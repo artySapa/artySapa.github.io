@@ -9,13 +9,25 @@ export default function Profile() {
           <div className="profile-details">
             <div className="colz">
               <div className="colz-icon">
-                <a href="https://www.instagram.com/sapartyom/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.instagram.com/sapartyom/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-instagram"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/sapartyom/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/sapartyom/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-linkedin-square"></i>
                 </a>
-                <a href="https://github.com/artySapa" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/artySapa"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-github"></i>
                 </a>
               </div>
@@ -36,7 +48,18 @@ export default function Profile() {
               </span>
             </div>
             <div className="profile-options">
-              <button className="btn primary-btn"> Hire Me </button>
+              <button
+                className="btn primary-btn"
+                onClick={() => {
+                  window.scrollTo({
+                    top: document.documentElement.scrollHeight,
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                {" "}
+                Hire Me{" "}
+              </button>
               <a href="./artycv.pdf" download="Arty artycv.pdf">
                 <button className="btn highlighted-btn" href="./artycv.pdf">
                   Get Resume
