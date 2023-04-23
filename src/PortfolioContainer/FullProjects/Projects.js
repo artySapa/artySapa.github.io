@@ -12,31 +12,31 @@ export default function Projects() {
   return (
     <div className="projectpage-body">
       <DescriptionProj
-        ind = "1"
+        ind="1"
         title="ProFlow"
         video={ProFlowDemo}
         description={[
           "When working on projects of any scale, managing tasks and tracking progress is essential to success. ProFlow is a web application that enables teams to do just this. By making an account, creating a project, and inviting members, managing a project will become simple. Members of a project can add columns, subprojects, and tasks as the project evolves! Our tool makes this far easier by enabling a folder-like structure that mimics how real projects are set up. ",
-            "ProFlow attempts to minimize the number of required packages by taking advantage of Docker containerization by using Docker. Other Technologies used include React, NestJS, MySQL, etc.",
+          "ProFlow attempts to minimize the number of required packages by taking advantage of Docker containerization by using Docker. Other Technologies used include React, NestJS, MySQL, etc.",
         ]}
         to_link="https://github.com/CS35L-ProFlow/ProFlow"
       />
       <div className="description-card">
         <DescriptionProj
-            ind = "2"
-            video={BattleshipDemo}
-            title="Battleship game"
-            description={[
+          ind="2"
+          video={BattleshipDemo}
+          title="Battleship game"
+          description={[
             "Battleship game is a very famous game where there are two players trying to explode each other's battleship crew. Whoever destroy's all the ships first wins. In my particular implementation, player can choose 3 options: ",
-                "1. A mini-game between two mediocre players",
-                "2. A mediocre player against a human player",
-                "3. A 100-game match between a mediocre and an good player, which has my own secret implementation of the actions.",
-            ]}
-            to_link="https://github.com/artySapa/Battleship"
+            "1. A mini-game between two mediocre players",
+            "2. A mediocre player against a human player",
+            "3. A 100-game match between a mediocre and an good player, which has my own secret implementation of the actions.",
+          ]}
+          to_link="https://github.com/artySapa/Battleship"
         />
       </div>
       <DescriptionProj
-        ind = "1"
+        ind="1"
         video={CompilerDemo}
         title="Compiler Performance"
         description={[

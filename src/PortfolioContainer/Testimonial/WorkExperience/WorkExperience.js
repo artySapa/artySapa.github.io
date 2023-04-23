@@ -2,7 +2,7 @@ import "./WorkExperience.css";
 import React from "react";
 
 export default function WorkExperience(props) {
-  const {experienceList} = props;
+  const { experienceList } = props;
 
   return (
     <div className="work-body">

@@ -1,56 +1,91 @@
-.video-demo{
-    height: 400px;
-    width: 700px;
+.video-demo {
+  height: 400px;
+  width: 700px;
 }
 
-.video-demo-container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+.video-demo-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 }
 
 video {
+  object-fit: fill;
+  border-radius: 15px;
+  overflow: clip;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.demo-description1 {
+  font-family: "Poppins";
+  transform: translateX(-15%);
+}
+
+.demo-description2 {
+  font-family: "Poppins";
+}
+
+.project-header {
+  font-family: "Poppins SemiBold";
+  font-size: 45px;
+}
+
+.project-body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+.project-header2 {
+  font-family: "Poppins SemiBold";
+  font-size: 25px;
+  text-align: center;
+}
+
+.description-test {
+  font-size: 19px;
+  width: 80%;
+  margin: 30px;
+  margin-left: 10%;
+  overflow: contain;
+}
+
+.project-button {
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1000px) {
+  .project-header {
+    font-family: "Poppins SemiBold";
+    font-size: 25px;
+  }
+  .project-header2 {
+    font-family: "Poppins SemiBold";
+    font-size: 20px;
+  }
+  .video-demo-container {
+    display: block;
+    margin-top: 50px;
+  }
+  .video-demo {
+    height: 80%;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  video {
     object-fit: fill;
     border-radius: 15px;
     overflow: clip;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.demo-description1{
+    margin: auto;
+  }
+  .demo-description1 {
     font-family: "Poppins";
-    transform: translateX(-15%) ;
-}
+    transform: translateX(0);
+  }
 
-.demo-description2{
-    font-family: "Poppins";
-}
-
-.project-header{
-    font-family: "Poppins SemiBold";
-    font-size: 45px;
-}
-
-.project-body{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
-}
-
-.project-header2{
-    font-family: "Poppins SemiBold";
-    font-size: 25px;
-    text-align: center;
-}
-
-.description-test{
-    font-size: 19px;
-    width:80%;
-    margin: 30px;
-    margin-left: 10%;
-    overflow: contain;
-}
-
-.project-button{
-    transform: translateX(-50%);
+  .description-test {
+    margin: auto;
+  }
 }

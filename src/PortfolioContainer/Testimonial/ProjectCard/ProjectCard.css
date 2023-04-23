@@ -1,111 +1,109 @@
-
 article {
-    position: relative;
-    border-radius: 16px;
-    box-shadow: 10px 10px 10px rgb(134, 134, 134);
-    background: linear-gradient(to top, #00172b 0%, #458da1 100%);
-    transform-origin: center;
-    transition: all 0.4s ease-in-out;
-    overflow: hidden;
-    color: aliceblue;
-    animation: transitionIn 1.5s;
-  }
-
-  article a::after {
-    position: absolute;
-    inset-block: 0;
-    inset-inline: 0;
-    cursor: pointer;
-    content: "";
-  }
-
-  /* basic article elements styling */
-article h2 {
-    margin: 0 0 18px 0;
-    font-family: "Poppins";
-    font-size: 1.9rem;
-    letter-spacing: 0.06em;
-    transition: color 0.3s ease-out;
-  }
-  
-  figure {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-  }
-  
-  article img {
-    max-width: 100%;
-    transform-origin: center;
-    transform: scale(var(--img-scale));
-    transition: transform 0.4s ease-in-out;
-  }
-  
-  .article-body {
-    padding: 24px;
-  }
-  
-  article a {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    color: #28666e;
-  }
-  
-  article a:focus {
-    outline: 1px dotted rgb(252, 91, 91);
-    text-decoration: none;
-  }
-  
-  article:has(:hover, :focus) {
-    
-    --img-scale: 1.1;
-    --title-color: rgb(252, 91, 91);
-    --link-icon-translate: 0;
-    --link-icon-opacity: 1;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  /* YEAH IDK MAN ASK MAIA */
-    box-shadow: 10px 10px 10px rgb(233, 93, 93);
-  }
-
-  .read-more:hover{
-    color: rgb(252, 91, 91);
-    text-decoration: none;
-    transition: 0.4s ease;
-  }
-
-  .read-more>i{
-    font-size: 30px;
-    text-align: center;
-  }
-
-  @media screen and (max-width: 1110px) {
-    .projectcard-body{
-        width: 70%;
-        margin:auto;
-    }
-    h1{
-        font-size: 30px;
-    }
-  }
-
-  @keyframes transitionIn {
-    from { 
-        opacity: 0;
-        transform: rotateX(-10deg);
-    }
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
-  }
-
-.skills{
-    opacity: 0.5;
-    margin-top:0px;
-    margin-bottom: 6px;;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 10px 10px 10px rgb(134, 134, 134);
+  background: linear-gradient(to top, #00172b 0%, #458da1 100%);
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  color: aliceblue;
+  animation: transitionIn 1.5s;
 }
 
-.title-card{
-    margin: 0;
+article a::after {
+  position: absolute;
+  inset-block: 0;
+  inset-inline: 0;
+  cursor: pointer;
+  content: "";
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: "Poppins";
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+article a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #28666e;
+}
+
+article a:focus {
+  outline: 1px dotted rgb(252, 91, 91);
+  text-decoration: none;
+}
+
+article:has(:hover, :focus) {
+  --img-scale: 1.1;
+  --title-color: rgb(252, 91, 91);
+  --link-icon-translate: 0;
+  --link-icon-opacity: 1;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  /* YEAH IDK MAN ASK MAIA */
+  box-shadow: 10px 10px 10px rgb(233, 93, 93);
+}
+
+.read-more:hover {
+  color: rgb(252, 91, 91);
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.read-more > i {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1110px) {
+  .projectcard-body {
+    width: 70%;
+    margin: auto;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.skills {
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.title-card {
+  margin: 0;
 }
