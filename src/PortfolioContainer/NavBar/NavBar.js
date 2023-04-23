@@ -1,8 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "../Home/Home";
 import Everything from "../Everything/Everything";
+import ProjectPage from "../FullProjects/Projects";
 
 export default function NavBar() {
   return (
@@ -29,10 +29,10 @@ export default function NavBar() {
       <div id="content">
         <Routes>
           <Route path="/" element={<Everything />}></Route>
-          <Route path="/projects" element={<Home />}></Route> {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
+          <Route path="/projects" element={<ProjectPage />}></Route>{" "}
+          {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
         </Routes>
       </div>
-
     </Router>
   );
 }

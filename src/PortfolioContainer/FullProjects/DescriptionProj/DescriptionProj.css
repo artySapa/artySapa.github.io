@@ -1,0 +1,44 @@
+.video-demo{
+    height: 400px;
+    width: 700px;
+}
+
+.video-demo-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+video {
+    object-fit: fill;
+    border-radius: 15px;
+    overflow: clip;
+    margin-left: 100px;
+}
+
+.demo-description{
+    font-family: "Poppins";
+}
+
+.project-header{
+    font-family: "Poppins SemiBold";
+    font-size: 45px;
+}
+
+.project-body{
+    margin-top: 40px;
+}
+
+.project-header2{
+    font-family: "Poppins Light";
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-test{
+    font-size: 19px;
+    width:80%;
+    margin: 30px;
+    margin-left: 10%;
+    overflow: contain;
+}
