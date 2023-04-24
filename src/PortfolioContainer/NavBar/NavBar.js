@@ -1,10 +1,9 @@
 import React from "react";
-import { useEffect } from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Everything from "../Everything/Everything";
 import ProjectPage from "../FullProjects/Projects";
-import { click } from "@testing-library/user-event/dist/click";
+import AboutMe from "../AboutMe/AboutMe";
 
 export default function NavBar() {
   return (
@@ -44,7 +43,8 @@ export default function NavBar() {
       <div id="content">
         <Routes>
           <Route path="/" element={<Everything />}></Route>
-          <Route path="/projects" element={<ProjectPage />}></Route>{" "}
+          <Route path="/projects" element={<ProjectPage />}></Route>
+          <Route path="/abtme" element={<AboutMe />}></Route>{" "}
           {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
         </Routes>
       </div>
