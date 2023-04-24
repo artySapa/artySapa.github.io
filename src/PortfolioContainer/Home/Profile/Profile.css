@@ -27,7 +27,6 @@
 
 .profile-details-role h1 {
   font-size: 40px;
-  font-family: cursive;
 }
 
 .primary-text {
@@ -55,7 +54,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 1px 0px 0px white;
   border-radius: 50%;
   height: 380px;
   width: 380px;
@@ -78,8 +76,8 @@
 
 .colz .colz-icon i {
   color: white;
-  padding: 8px;
-  padding-left: 0px;
+  padding-right: 8px;
+  margin-top: 30px;
 }
 
 .colz .colz-icon i:hover {
