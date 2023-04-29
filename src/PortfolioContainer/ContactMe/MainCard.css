@@ -1,48 +1,47 @@
-.main-card-body{
-    margin:auto;
-    background: linear-gradient(to top, #00172b 0%, #458da1 100%);
-    border-radius: 15px;
-    width: 30%;
-    padding: 10px;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    font-family: "Poppins";
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    box-shadow: 10px 10px 10px rgb(134, 134, 134);
-    overflow:hidden;
+.main-card-body {
+  margin: auto;
+  background: linear-gradient(to top, #00172b 0%, #458da1 100%);
+  border-radius: 15px;
+  width: 30%;
+  padding: 10px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: "Poppins";
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  box-shadow: 10px 10px 10px rgb(134, 134, 134);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 850px) {
-    .main-card-body{
-        width:90%;
-    }
+  .main-card-body {
+    width: 90%;
+  }
 
-    .main-card-title{
-        font-size: 10px;
-    }
+  .main-card-title {
+    font-size: 10px;
+  }
 }
 
-.main-card-title{
-    color: white;
-    font-size: 35px;
-    margin-top: 20px !important;
-
+.main-card-title {
+  color: white;
+  font-size: 35px;
+  margin-top: 20px !important;
 }
 
 .placeholder {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 20px;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    padding:5px;
-    overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 5px;
+  overflow: hidden;
 }
 
-#linkin{
-    text-decoration: none;
-    color: darkblue;
+#linkin {
+  text-decoration: none;
+  color: darkblue;
 }
