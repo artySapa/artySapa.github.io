@@ -1,6 +1,6 @@
 .main-card-body {
   margin: auto;
-  background: linear-gradient(to top, #00172b 0%, #458da1 100%);
+  background: linear-gradient(to top, #002a4f 0%, #030043 100%);
   border-radius: 15px;
   width: 30%;
   padding: 10px;
@@ -42,6 +42,6 @@
 }
 
 #linkin {
-  text-decoration: none;
-  color: darkblue;
+  
+  color: rgb(0, 0, 0);
 }

@@ -5,6 +5,8 @@ import "./Projects.css";
 import ProFlowDemo from "../../assets/ProFlowDemo.mov";
 import BattleshipDemo from "../../assets/BattleshipDemo.mp4";
 import CompilerDemo from "../../assets/CompilerDemo.mov";
+import FilmItDemo from "../../assets/FilmItDemo.mp4";
+import share3Demo from "../../assets/share3D.mp4";
 
 import DescriptionProj from "./DescriptionProj/DescriptionProj";
 
@@ -22,6 +24,29 @@ export default function Projects() {
         to_link="https://github.com/CS35L-ProFlow/ProFlow"
       />
       <div className="description-card">
+      <DescriptionProj
+        ind="2"
+        title="FilmIt"
+        video={FilmItDemo}
+        description={[
+          "This project is meant to be a useful tool for anyone who wants a simple random movie recommendation based on their preferences. Just fill out the filters, read the description, watch the trailer and decide if you want to watch it. ",
+          "The project can be minimally modified to be used with any of the many others movie APIs to get more selection of movies.",
+        ]}
+        to_link="https://github.com/artySapa/movie-filter"
+      />
+      </div>
+      <DescriptionProj
+          ind="1"
+          video={share3Demo}
+          title="Share3D"
+          description={[
+            "When looking for a 3d model to print or to simply to play with, you might want to ask someone for help online, here is where Share3D comes in!  ",
+            "Simply create a post, elaborate on the request, and get the 3d models offered to you!",
+            "You can also help other posts by responding to their request if you have a solution to their problem."
+          ]}
+          to_link="https://github.com/artySapa/3d-project"
+        />
+        <div className="description-card">
         <DescriptionProj
           ind="2"
           video={BattleshipDemo}
@@ -34,7 +59,7 @@ export default function Projects() {
           ]}
           to_link="https://github.com/artySapa/Battleship"
         />
-      </div>
+        </div>
       <DescriptionProj
         ind="1"
         video={CompilerDemo}

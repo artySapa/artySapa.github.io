@@ -11,11 +11,10 @@ import { Link } from "react-router-dom";
 
 export default function Testimonial() {
   const experienceList1 = [
-    "Wrote a script for automatically pushing out Windows updates and software updates for all departments, including internationally based computers and electronics with batch files, group policies, SQL, and LanSweeper",
-    "Implemented interface features for webpages by updating files in a large Intranet code database using JavaScript",
-    "Improved departments’ data communication and Access databases features by debugging SQL and VBA code",
-    "Executed hardware and software troubleshooting processes on-site for other employees and security purposes",
-  ];
+    "Saved $10,000 per year by writing a script for automatically pushing out Windows and software updates for all departments, including internationally based computers, with batch files, group policies, SQL, and LanSweeper",
+    "Renovated departments’ data communication and Access databases features by optimizing queries in SQL & VBA code, resulting in a time-saving of 2 hours per deployment",
+    "Introduced 20+ new interface features for webpages by updating files in a large Intranet code database (JavaScript), including responsive connecting buttons, error and pop-up notifications, header and footer styling, etc. "
+    ];
   const experienceList2 = [
     "Led the creation of 4 large projects, including navigating and gymnastics apps with 1C, received patents for each",
     "Collaborated with my high school to encourage programming in 1C programming language among students ",
@@ -23,8 +22,8 @@ export default function Testimonial() {
     "Presented yearly progress report on the student projects during an international mobile application creation meeting",
   ];
   const experienceList3 = [
-    "Managed and executed the daily deliveries, stocking, and distribution of the products in the student store",
-    "Trained employees to work at the register and kept equipment and goods in a good condition and organization",
+    "Developed test scripts and classes to validate the outcomes of 50 students' code submissions in C++ and Python",
+    "Troubleshooted 100+ hardware/software units to provide reliable services for the competent learning environment",
   ];
   return (
     <div className="whole-thing">
@@ -62,13 +61,6 @@ export default function Testimonial() {
         <p className="title-workexp">Work Experience</p>
         <div className="experience2">
           <WorkExperience
-            name="Desco Industries Inc."
-            role="Computer Science Intern"
-            to_link="https://github.com/artySapa/Battleship"
-            img_link={battleship}
-            experienceList={experienceList1}
-          />
-          <WorkExperience
             name="Slava KVC"
             role="Tech Project Manager"
             to_link="https://github.com/artySapa/Battleship"
@@ -76,8 +68,15 @@ export default function Testimonial() {
             experienceList={experienceList2}
           />
           <WorkExperience
-            name="ASUCLA"
-            role="Customer Service Supervisor"
+            name="Desco Industries"
+            role="Software Development Intern"
+            to_link="https://github.com/artySapa/Battleship"
+            img_link={battleship}
+            experienceList={experienceList1}
+          />
+          <WorkExperience
+            name="Lavner Education"
+            role="IT Intern"
             to_link="https://github.com/artySapa/Battleship"
             img_link={battleship}
             experienceList={experienceList3}

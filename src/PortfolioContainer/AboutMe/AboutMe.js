@@ -100,14 +100,13 @@ export default function AboutMe(props) {
             C++, AI, mobile applications, as well as API design.{" "}
           </p>
           <p>
-            I am currently developing an idea of AI-generated recommendations
-            for movies based on the user input using Axios and React as the
+            I am currently developing an idea of automated translations for any songs that a user might select using Axios, React, and postgreSQL as the
             ground for the project.{" "}
           </p>
           <p>
             I am really excited about the future of computer science with an
             emerging spheres such as Artificial Intelligence and Quantum
-            Computing. I can't wait to help seeing them working together!{" "}
+            Computing. {" "}
           </p>
         </div>
       </div>

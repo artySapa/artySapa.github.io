@@ -45,7 +45,6 @@ export default function NavBar() {
           <Route path="/" element={<Everything />}></Route>
           <Route path="/projects" element={<ProjectPage />}></Route>
           <Route path="/abtme" element={<AboutMe />}></Route>{" "}
-          {/* HERE YOU INSERT THE NEW PAGES FOR SEPARATE WORK EXPERIENCES WITH VIDEOS AND MORE DETAIL */}
         </Routes>
       </div>
     </Router>

@@ -14,7 +14,7 @@ export default function ProjectCard(props) {
             <h2 className="title-card">{props.name}</h2>
             <p className="skills">{props.skills}</p>
             <p>{props.role}</p>
-            <a href={props.to_link} class="read-more" target="_blank">
+            <a href={props.to_link} class="read-more" target="_blank" rel="noreferrer">
               <i className="fa fa-github"></i>
             </a>
           </div>

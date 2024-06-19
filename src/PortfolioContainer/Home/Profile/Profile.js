@@ -17,7 +17,7 @@ export default function Profile() {
             </div>
             <div className="profile-details-role">
               <div className="primary-text">
-                <h1> React developer.</h1>
+                <h1> Software developer.</h1>
               </div>
             </div>
             <div className="profile-options">

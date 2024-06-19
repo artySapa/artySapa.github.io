@@ -12,6 +12,7 @@ export default function MainCard() {
             id="linkin"
             href="https://www.linkedin.com/in/sapartyom/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
