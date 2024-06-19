@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8a05b231.css",
+    "main.js": "/portfolio/static/js/main.5da7f514.js",
+    "static/js/787.d51d43ea.chunk.js": "/portfolio/static/js/787.d51d43ea.chunk.js",
+    "static/media/FilmItDemo.mp4": "/portfolio/static/media/FilmItDemo.2f9f0156368f24c279d4.mp4",
+    "static/media/ProFlowDemo.mov": "/portfolio/static/media/ProFlowDemo.85ebb789653a5a780433.mov",
+    "static/media/share3D.mp4": "/portfolio/static/media/share3D.3111441bb716a1ff0c94.mp4",
+    "static/media/CompilerDemo.mov": "/portfolio/static/media/CompilerDemo.5a8fb0ba2d3815d90523.mov",
+    "static/media/BattleshipDemo.mp4": "/portfolio/static/media/BattleshipDemo.d452c555e4b49f988e49.mp4",
+    "static/media/profilephoto3.jpg": "/portfolio/static/media/profilephoto3.1f905ae440b16d810c22.jpg",
+    "static/media/profilephoto2.jpg": "/portfolio/static/media/profilephoto2.f07eebae9ec4336097e9.jpg",
+    "static/media/profilephoto4.jpg": "/portfolio/static/media/profilephoto4.ef0190d7077e9df9dfe4.jpg",
+    "static/media/profilephoto.jpg": "/portfolio/static/media/profilephoto.619e628d29ad24316b51.jpg",
+    "static/media/profilephoto1.jpg": "/portfolio/static/media/profilephoto1.45eee83e34e4c48cc6eb.jpg",
+    "static/media/hacking.png": "/portfolio/static/media/hacking.f7fb6300f25f68359463.png",
+    "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/proflow.jpeg": "/portfolio/static/media/proflow.a4e0b6d866c9323fe2e5.jpeg",
+    "static/media/battle.jpeg": "/portfolio/static/media/battle.34fda0b5914cce5f243e.jpeg",
+    "static/media/shape2.png": "/portfolio/static/media/shape2.87c9c63ac1cb57e15f1f.png",
+    "index.html": "/portfolio/index.html",
+    "main.8a05b231.css.map": "/portfolio/static/css/main.8a05b231.css.map",
+    "main.5da7f514.js.map": "/portfolio/static/js/main.5da7f514.js.map",
+    "787.d51d43ea.chunk.js.map": "/portfolio/static/js/787.d51d43ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a05b231.css",
+    "static/js/main.5da7f514.js"
+  ]
+}
