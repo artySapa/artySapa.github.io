@@ -11,7 +11,7 @@ export default function NavBar() {
       <div id="navigations">
         <div id="navigation">
           <div className="headerLinks">
-            <Link class="link" to="/">
+            <Link class="link" to="/portfolio">
               Home
             </Link>
             <Link class="link" to="/projects">
@@ -19,7 +19,7 @@ export default function NavBar() {
             </Link>
             <Link
               class="link"
-              to="/#workexp"
+              to="/portfolio/#workexp"
               onClick={() => {
                 const targetElement = document.getElementById("workexp");
                 if (targetElement) {
@@ -42,7 +42,7 @@ export default function NavBar() {
 
       <div id="content">
         <Routes>
-          <Route path="/" element={<Everything />}></Route>
+          <Route path="/portfolio" element={<Everything />}></Route>
           <Route path="/projects" element={<ProjectPage />}></Route>
           <Route path="/abtme" element={<AboutMe />}></Route>{" "}
         </Routes>
